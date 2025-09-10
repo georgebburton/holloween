@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>We Don't Have Those</title>
+        <style>
+            body {
+                background-color: black;
+                color: orange;
+                font-family: 'Creepster', cursive;
+                text-align: center;
+                padding: 10px;
+            }
+            h1 {
+                font-size: 15pt;
+                margin-bottom: 10px;
+            }
+            hr {
+                border: 2px solid orange;
+            }
+            #joke p{
+                text-align: left;
+                font-size: 15pt;
+                margin-top: 20px;
+            }
+            .prod_text {
+                font-size: 20pt;
+                text-align: left;
+            }
+            .products {
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                gap: 140px;
+                margin-top: 10px;
+                font-size: 15pt;
+            }
+            img {
+                width: 250px;
+                height: 300px;
+                border: 5px solid orange;
+                border-radius: 15px;
+            }
+            .passes img {
+                border: none;
+            }
+            #joke img {
+                width: 90%;
+                height: 90%;
+            }
+            .header {
+                background-image: url("C:\Users\georg\Downloads\Miller_house_T-shirt_out_of_stock.png");
+                color: orange;
+            }
+            button {
+                background-color: orange;
+                color: black;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 20px;
+                font-size: 12pt;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+            .passes{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                gap: 30px;
+            }
+            #joke div {
+                justify-content: center;
+                border-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <h1>Welcome to WeDon'tHaveThose.com</h1>
+        </div>
+        <hr>
+        <section id="joke">
+            <p>Fast Passes: </p>
+            <div class="passes">
+                <div>
+                    <img src="C:\Users\georg\Downloads\single_pass2.jpg" alt="single">
+                </div>
+                <div class="anual_pass">
+                    <img src="C:\Users\georg\Downloads\anual2.jpg" alt="annual">
+                </div>
+            </div>
+        </section>
+        <p class="prod_text">Products:</p>
+        <div class="products">
+            <div><img src="C:\Users\georg\Downloads\Miller_house_T-shirt_out_of_stock2.jpg" alt="Tshirt">
+            <p>Miller House T-shirt - $29.99</p>
+            <button onclick="alert('Out of Stock!')">Buy Now</button>
+            </div>
+            <div><img src="C:\Users\georg\Downloads\my_last_candy_bag_was_too_small_tote_bag2.png" alt="bag">
+            <p>Candy Bag - $12.99</p>
+            <button onclick="alert('Out of Stock!')">Buy Now</button>
+            </div>
+            <div><img src="C:\Users\georg\Downloads\vish_this_was_a_blood_blag2.jpg" alt="Mug">
+            <p>Blood bag mug - $15.99</p>
+            <button onclick="alert('Out of Stock!')">Buy Now</button>
+            </div>
+            <div><img src="C:\Users\georg\Downloads\skellys_biggest_fan2.jpg" alt="cap">
+            <p>Skelly hat - $25.99</p>
+            <button onclick="alert('Out of Stock!')">Buy Now</button>
+            </div>
+        </div>
+
+    </body>
+    
+
+</html>
