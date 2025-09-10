@@ -4,76 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>We Don't Have Those</title>
-        <style>
-            body {
-                background-color: black;
-                color: orange;
-                font-family: 'Creepster', cursive;
-                text-align: center;
-                padding: 10px;
-            }
-            h1 {
-                font-size: 15pt;
-                margin-bottom: 10px;
-            }
-            hr {
-                border: 2px solid orange;
-            }
-            #joke p{
-                text-align: left;
-                font-size: 15pt;
-                margin-top: 20px;
-            }
-            .prod_text {
-                font-size: 20pt;
-                text-align: left;
-            }
-            .products {
-                display: grid;
-                grid-template-columns: auto auto;
-                justify-content: center;
-                gap: 140px;
-                margin-top: 10px;
-                font-size: 15pt;
-            }
-            img {
-                width: 250px;
-                height: 300px;
-                border: 5px solid orange;
-                border-radius: 15px;
-            }
-            .passes img {
-                border: none;
-            }
-            #joke img {
-                width: 90%;
-                height: 90%;
-            }
-            .header {
-                background-image: url("C:\Users\georg\Downloads\Miller_house_T-shirt_out_of_stock.png");
-                color: orange;
-            }
-            button {
-                background-color: orange;
-                color: black;
-                border: none;
-                border-radius: 10px;
-                padding: 10px 20px;
-                font-size: 12pt;
-                cursor: pointer;
-                margin-top: 10px;
-            }
-            .passes{
-                display: grid;
-                grid-template-columns: auto auto;
-                justify-content: center;
-                gap: 30px;
-            }
-            #joke div {
-                justify-content: center;
-                border-color: lightgray;
-            }
-        </style>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <div class = "header">
@@ -81,7 +12,7 @@
         </div>
         <hr>
         <section id="joke">
-            <p>Fast Passes: </p>
+            <p class="prod_text">Fast Passes: </p>
             <div class="passes">
                 <div>
                     <img src="C:\Users\georg\Downloads\single_pass2.jpg" alt="single">
@@ -110,8 +41,5 @@
             <button onclick="alert('Out of Stock!')">Buy Now</button>
             </div>
         </div>
-
     </body>
-    
-
 </html>
